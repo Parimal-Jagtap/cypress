@@ -142,7 +142,7 @@ export const RunnablePopoverOptions: React.FC<Props> = observer(({
           onClick={handleOpenInIDE}
           data-cy="runnable-popover-open-ide"
         >
-          <IconWindowCodeEditor strokeColor="gray-500" fillColor="gray-500" />
+          <IconWindowCodeEditorSmall strokeColor="gray-500" fillColor="gray-500" />
           <span>Open in IDE</span>
         </button>
 
